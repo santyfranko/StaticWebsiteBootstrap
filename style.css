@@ -1,27 +1,38 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .img_groceries{
     height: 60px;
     width: 60px;
 }
-/* .body_bar{
-    background-color: #E8F8F5;
-} */
+.body_bar{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: rgba(235, 235, 235, 0.5) 0px 0px 6px 2px;
+}
 .heading_body{
     font-size: 20px;
-  
 }
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
-.cardBody img{
-    width: 100%;
+.cardBody img {
     height: 50%;
 }
-.FooterFinialized{
-    
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+.cardfilter .card{
+    width: 340px;
+    margin-left: 75px;
+    border: 1px solid white;
 }
